@@ -1,0 +1,29 @@
+div {
+    font-size: 25px;
+    p {
+        color: blue;
+    }
+    ul {
+        color: rgb(23, 236, 23);
+    }
+    ol {
+        color: moccasin;
+    }
+}
+a::before {
+    content: "\2622 Click here: ";
+    font-weight: bold;
+}
+
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lol {
+    @extend %message;
+    background-color: rgb(3, 149, 246);
+}
+
+

@@ -1,0 +1,46 @@
+div {
+  font-size: 25px;
+}
+
+div p {
+  color: blue;
+}
+
+div ul {
+  color: #17ec17;
+}
+
+div ol {
+  color: moccasin;
+}
+
+a::before {
+  content: "\2622 Click here: ";
+  font-weight: bold;
+}
+
+.lol {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.lol {
+  background-color: #0395f6;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  -ms-grid-columns: 200px 200px auto;
+      grid-template-columns: 200px 200px auto;
+}
+
+.row > div {
+  padding: 50px;
+  background-color: #da5c3c;
+  border: 5px solid white;
+}
+/*# sourceMappingURL=anidamiento.css.map */
